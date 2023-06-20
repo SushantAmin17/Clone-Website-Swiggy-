@@ -1,0 +1,105 @@
+.img1{
+    height: 100%;
+}
+
+.height{
+    height: 500px;
+}
+
+.height1{
+    height: 500px;
+}
+
+
+.rnd{
+    border-radius: 0px;
+    /* padding: -1px 0px; */
+    background-color: #000;
+    color: #fff;
+}
+
+.login{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+
+.login:hover{
+    color: #fc8019; 
+}
+
+
+
+/* Bootstrap */
+
+.ms-5 {
+    margin-left: 20rem!important;
+}
+
+.me-5 {
+    margin-right: 2rem!important;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+
+.inputBox{
+    border-radius: 0px;
+    padding: 15px;
+}
+
+.inputBox:hover{
+    border-color: #fc8019;
+}
+
+.sPan{
+    border-radius: 0px;
+    background-color: #fc8019;
+    color: #fff;
+    padding: 18px;
+}
+
+.all h1,h2,input,h3{
+    text-align: left;    
+}
+
+.all{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 340px;
+}
+
+.main{
+    background-color: #2b1e16;
+}
+
+.center{
+    text-align: center;
+}
+
+.me-5 {
+    margin-right: 8rem!important;
+}
+
+.ms-4 {
+    margin-left: 6rem!important;
+}
