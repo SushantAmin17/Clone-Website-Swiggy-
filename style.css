@@ -3,11 +3,11 @@
 }
 
 .height{
-    height: 500px;
+    height: 550px;
 }
 
 .height1{
-    height: 500px;
+    height: 550px;
 }
 
 
@@ -33,42 +33,80 @@
 
 /* Bootstrap */
 
-.ms-5 {
-    margin-left: 20rem!important;
+.p-5 {
+    padding: 4rem!important;
 }
 
-.me-5 {
-    margin-right: 2rem!important;
+.ps-5 {
+    padding-left: 21rem!important;
 }
 
-h2{
-    font-size: 24px;
-    font-weight: 300;
-    width: 600px;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    letter-spacing: -.3px;
-    color: #686b78;
+.pe-5 {
+    padding-right: 11rem!important;
 }
 
-h3{
-    font-weight: 400;
-    font-size: 15px;
-    color: #a9abb2;
-    margin: 30px 0 10px;
-    letter-spacing: -.2px;
-    text-transform: uppercase;
+.anchor{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
 }
+
+.anchor:hover{
+    color: #fc8019;
+}
+
+.btn1{
+    border-radius: 0px;
+    padding: 0px -1px;
+    background-color: #000;
+}
+
+.btn1:hover{
+    border-radius: 0px;
+    padding: 0px -1px;
+    background-color: #000;
+}
+
+
+#spin {
+    color: #000;
+  }
+  
+  #spin:after {
+    content:"";
+    animation: spin 25s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { content:"Movie Marathon?";}
+    10% { content:"Unexpected Guest?";}
+    20% { content:"Late night at office?";}
+    30% { content:"Hungry?";}
+    40% { content:"Game night?";}
+    50% { content: "Cooking gone wrong?"; }
+    60% { content: "Swiggy"; }
+    70% { content: "Lets enjoy"; }
+    80% { content: "Variant Dishes"; }
+    90% { content: "Welcome"; }
+    100% { content: "Everyone"; }
+  }
+
+
 
 .inputBox{
     border-radius: 0px;
-    padding: 15px;
+    padding: 17px 15px;
+    color: #686b78;
 }
 
-.inputBox:hover{
-    border-color: #fc8019;
+.sPan{
+    border-radius: 0px;
+    background-color: #fc8019;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
+
 
 .sPan{
     border-radius: 0px;
@@ -77,29 +115,38 @@ h3{
     padding: 18px;
 }
 
-.all h1,h2,input,h3{
-    text-align: left;    
-}
-
-.all{
-    margin-top: 50px;
-    /* border: 2px solid red; */
-    width: 50%;
-    margin-left: 340px;
-}
 
 .main{
     background-color: #2b1e16;
 }
 
-.center{
-    text-align: center;
+.ms-5 {
+    margin-left: 9rem!important;
 }
 
-.me-5 {
-    margin-right: 8rem!important;
+.me-5{
+    margin-right: 18rem!important;
 }
 
-.ms-4 {
-    margin-left: 6rem!important;
+.ms-3 {
+    margin-left: 9rem!important;
 }
+
+.ms-4{
+    margin-left: 1.5rem!important;
+}
+
+.me-4{
+    margin-right: 9.5rem!important;
+}
+
+.all a{
+    padding: 0px 0px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
